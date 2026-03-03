@@ -27,50 +27,61 @@ STEP 1: Add the required HTML5 skeleton
 
     <main>
       <section class="hero">
+        <div class="hero-content">
         <h1>Newest Arrivals</h1>
-        <p>These are the newest pieces to our collection</p>
+        <p class="hero-subhead">These are the newest pieces to our collection</p>
 
-        <a href="#">New Arrivals</a>
+        <a href="#" class="btn btn-dark">New Arrivals</a>
+        </div>
       </section>
-
-      <section>
-        <h2>Our Clothing Features</h2>
-
+      <h2>Our Clothing Features</h2>
+      <section class="features-grid">
+        
+        <div class="feature">
         <h3>Made 100% Out of Cotton</h3>
         <p>Our clothing is made 100% out of cotton. This allows for the most soft and comforting feel when wearing our clothing and allows for the best breathability.</p>
+        </div>
 
+        <div class="feature">
         <h3>Natural and Biodegradable</h3>
         <p>Since our clothing is made using 100% cotton, it is biodegradable allowing us to be eco-friendly and sustainable without hurting our planet.</p>
+        </div>
 
+        <div class="feature">
         <h3>Premium Quality Feel</h3>
         <p>Being one of the best quality type of material, with our clothing you get premium quality feel, having a crisp and heavyweight feel that suits everyone and ages well.</p>
+        </div>
       </section>
 
-      <section>
+      <section class="secondary-grid">
+        <div class="card">
         <h2>Featured Clothing</h2>
-        <p>Here is a model wearing some of our clothing.</p>
-        <img src="images/model_clothing.webp" alt="Model wearing clothing" width="300" height="400">
+        <div class="card">
+        <div class="card-image"><img src="images/model_clothing.webp" alt="Model wearing clothing" width="300" height="400"></div>
+        </div>
       </section>
 
       <section>
         <h2>Content Creators</h2>
         <p>Here are some Content Creators that wear our pieces.</p>
+        <div class="card">
         <img src="images/WisdomKaye.webp" alt="Wisdom Kaye" width="200" height="250">
-        <img src="images/HaileyBieber.jpeg" alt="Hailey Bieber">
+        <p class="card-text">Wisdom Kaye</p>
+        <img src="images/HaileyBieber.jpeg" alt="Hailey Bieber" width="200" height="250">
+         <p class="card-text">Hailey Bieber</p>
         <img src="images/EmmaChamberlin.webp" alt="Emma Chamberlin" width="200" height="250">
-        <p>Wisdom Kaye</p>
-        <p>Hailey Bieber</p>
-        <p>Emma Chamberlin</p>
-
+        <p class="card-text">Emma Chamberlin</p>
+        </div>
 
         <h2>Manufacturing</h2>
         <p>Our clothes are made right here in the United States which allows for easy and fast shipping times for U.S. residents but can also be purchased internationally.</p>
 
-        <h2><a href="https://trinitylabel.com/collections/shop-all-1">Shop All</a></h2>
+        <h2><a href="https://trinitylabel.com/collections/shop-all-1" class="btn btn-dark">Shop All</a></h2>
       </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
+      <div class="footer-inner">
       <p>&copy;2024 LIS 351 Demo Website</p>
 
       <ul>
@@ -78,6 +89,7 @@ STEP 1: Add the required HTML5 skeleton
         <li><a href="#">FAQ</a></li>
         <li><a href="#">Check Order Status</a></li>
       </ul>
+      </div>
     </footer>
     <!-- =========================================================
     STEP 2: Build the “top area” (site name + navigation) using simple HTML

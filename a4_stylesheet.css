@@ -87,7 +87,7 @@ a:hover { text-decoration: underline; }
      https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=60
   */
 background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),
-url("images/");
+url("images/backgroundimage.avif");
 background-size: cover;
 background-position: center;
 min-height: 360px;
@@ -110,6 +110,10 @@ min-height: 360px;
      Make the headline large and uppercase.
      (e.g., font-size around 42–48px, text-transform uppercase)
   */
+
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 0.04em;
 }
 
 .hero-subhead {
@@ -118,6 +122,9 @@ min-height: 360px;
      Make this slightly smaller than h1 and a softer color.
      (e.g., font-size ~20–24px; color #555)
   */
+
+  font-size: 20px;
+  color: #555;
 }
 
 
@@ -138,6 +145,8 @@ min-height: 360px;
      Make this a dark filled button with white text.
      (e.g., background #333; color #fff)
   */
+  background-color: #333;
+  color: #fff;
 }
 
 .btn-outline {
@@ -145,6 +154,9 @@ min-height: 360px;
      Make this an outlined button with a blue border and matching text.
      (e.g., border: 2px solid ...; color: ...; background: transparent)
   */
+  border: 2px solid blue;
+  color: purple;
+  background-color: transparent;
 }
 
 /* ===== Features (3 columns) ===== */
@@ -159,6 +171,9 @@ min-height: 360px;
        - Use flexbox
        - Add a gap between items (e.g., 26px)
   */
+  display: flex;
+  gap: 26px;
+
 }
 
 .feature {
@@ -226,6 +241,9 @@ min-height: 360px;
        - Use flexbox
        - Add a gap (e.g., 26px)
   */
+  display: flex;
+  gap: 26px;
+
 }
 
 .card {
@@ -235,6 +253,9 @@ min-height: 360px;
   */
   display: grid;
   grid-template-columns: 1fr 1fr;
+  flex: 1;
+  border: 1px solid #eee;
+  background: #fff;
 }
 
 .card-text {
@@ -261,6 +282,9 @@ min-height: 360px;
        - cover
        - centered
   */
+
+  background-size: cover;
+  background-position: center;
 }
 
 /* Optional images (already provided) */
@@ -302,6 +326,12 @@ min-height: 360px;
        - Add a gap (e.g., 24px)
        - Space items out (left/right)
   */
+
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: flex-start;
+
 }
 
 .footer-left {
